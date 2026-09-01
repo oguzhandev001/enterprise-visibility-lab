@@ -1,0 +1,14 @@
+Sep 01 09:51:52 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Sep 01 09:51:52 kali sshd[2742]: Server listening on 0.0.0.0 port 22.
+Sep 01 09:51:52 kali sshd[2742]: Server listening on :: port 22.
+Sep 01 09:51:52 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Sep 01 09:52:48 kali sshd-session[3220]: Invalid user anan from 10.10.10.100 port 65428
+Sep 01 09:52:51 kali sshd-session[3220]: pam_unix(sshd:auth): check pass; user unknown
+Sep 01 09:52:51 kali sshd-session[3220]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.100
+Sep 01 09:52:52 kali sshd-session[3220]: Failed password for invalid user anan from 10.10.10.100 port 65428 ssh2
+Sep 01 09:53:02 kali sshd-session[3220]: pam_unix(sshd:auth): check pass; user unknown
+Sep 01 09:53:04 kali sshd-session[3220]: Failed password for invalid user anan from 10.10.10.100 port 65428 ssh2
+Sep 01 09:53:05 kali sshd-session[3220]: pam_unix(sshd:auth): check pass; user unknown
+Sep 01 09:53:06 kali sshd-session[3220]: Failed password for invalid user anan from 10.10.10.100 port 65428 ssh2
+Sep 01 09:53:07 kali sshd-session[3220]: Connection reset by invalid user anan 10.10.10.100 port 65428 [preauth]
+Sep 01 09:53:07 kali sshd-session[3220]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.100
